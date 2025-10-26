@@ -10,7 +10,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Creates the runtime image for step two.
-FROM openjdk:19-jdk-alpine
+FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # Useful labels.
