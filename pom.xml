@@ -11,8 +11,8 @@
 	<groupId>com.edenther.api</groupId>
 	<artifactId>tasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Tasks</name>
-	<description>Edenther Tasks Micro Service</description>
+	<name>Kanban</name>
+	<description>Edenther Kanban Micro Service (Tasks / Projects / Columns)</description>
 	<url/>
 	<licenses>
 		<license/>
