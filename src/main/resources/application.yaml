@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: tasks-ms
+  datasource:
+    url: jdbc:mysql://localhost:3306/kanban?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: .Logme1nn
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: false
+    show-sql: false
+    open-in-view: false
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080
+server:
+  port: 8083
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.security.oauth2: DEBUG
